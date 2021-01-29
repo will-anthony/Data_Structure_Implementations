@@ -1,0 +1,55 @@
+Arrays
+
+-   Elements can be retrieved in 0(1) time. (Constant time complexity). However, you must know the index
+    of the element you are looking for.
+
+-   If you don't know an element's index, elements retrieval is 0(n) (Linear time complexity). You will need
+    to loop through the array to find the element
+
+-   Array size has to be declared when instantiating a new Array.
+    This means entire array is contained within one block of memory.
+
+-   Calculation to find an element in the array is intArray[x] = startingMemoryPosition + (x * 4).
+    This is because each int element takes up 4 bits of memory
+
+-   Retrieve with index----------------------------------------->0(1)
+-   Retrieve without index-------------------------------------->0(n)
+-   Add an element to full array-------------------------------->0(n)
+-   Add an element to the end of arrAy (with space)------------->0(1)
+-   Insert or update specific element--------------------------->0(1)
+-   Delete element by setting it to null------------------------>0(1)
+-   Delete an element by shifting elements---------------------->0(n)
+
+
+ArrayList
+
+-   Resizable array implementation of the List interface. Uses a backing backing array to store data.
+
+-   Quick to iterate over, but not good for constantly adding or deleting data as the backing array will have to be resized.
+
+-   Elements can be retrieved in 0(1) time. (Constant time complexity). However, you must know the index
+    of the element you are looking for.
+
+
+Vectors
+
+-   Vector is basically a thread safe Arraylist.
+
+-   There is overhead when using synchronization so if you need list to be thread safe, use vector. Otherwise use Arraylist
+
+
+Singly Linked List
+
+-   Each item in a Linked List is referred to as a node. Each node in a Singly Linked List has a reference to the next node in the sequence.
+
+-   Can insert and remove items to the front of a linked list in 0(1) time.
+
+
+Doubly Linked List
+
+-   Similar to a Singly Linked List however a reference is stored for both the previous and the next nodes int he sequence.
+
+-   Can insert and remove items to the front and the back of a doubly linked list in 0(1) time.
+    However, as with the Singly Linked List it is slow to access the middle elements.
+
+
