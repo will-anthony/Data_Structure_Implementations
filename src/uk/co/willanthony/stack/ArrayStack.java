@@ -60,4 +60,5 @@ public class ArrayStack implements Stack {
     private boolean isEmpty() {
         return top == 0;
     }
+
 }

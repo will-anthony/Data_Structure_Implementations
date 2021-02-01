@@ -1,10 +1,10 @@
 package uk.co.willanthony.stack;
 
-public interface Stack<T extends Object> {
+public interface Stack<E> {
 
-    void push(T object);
-    T pop();
-    T peek();
-    int size();
+    void push(E object);
+    public E pop();
+    public E peek();
+    public int size();
 
 }

@@ -66,4 +66,6 @@ Stacks
 -   If using a linked list as a backing structure push, pop and peek will have (0)1 time complexity. If using an array
     then push maybe 0(n) as the backing array may need to be resized
 
+-   The JDK has it's own stack class but recommends using the Deque interface and its implementations
+
 
