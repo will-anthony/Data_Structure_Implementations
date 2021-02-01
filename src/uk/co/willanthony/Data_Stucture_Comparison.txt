@@ -53,3 +53,17 @@ Doubly Linked List
     However, as with the Singly Linked List it is slow to access the middle elements.
 
 
+Stacks
+
+-   Abstract data type. Strictly a LIFO (last in, first out) data structure. e.g imagine a stack of paper where you can only
+    add or remove the top sheet.
+
+-   Generally will implement 3 methods, 'push' adds an item on the stack, 'pop' removes an item from the top of the stack,
+    'peek' checks the top item without popping it
+
+-   Can be backed by array but linked list is the perfect data structure to back a stack.
+
+-   If using a linked list as a backing structure push, pop and peek will have (0)1 time complexity. If using an array
+    then push maybe 0(n) as the backing array may need to be resized
+
+
