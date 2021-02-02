@@ -2,7 +2,7 @@ package uk.co.willanthony.stack;
 
 import java.util.LinkedList;
 
-public class LinkedListStack<E> implements Stack<E>{
+public class LinkedListStack<E> implements LinearData<E> {
 
     private LinkedList<E> stack;
 

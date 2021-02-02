@@ -4,7 +4,7 @@ import uk.co.willanthony.test_classes.Employee;
 
 import java.util.EmptyStackException;
 
-public class ArrayStack implements Stack {
+public class ArrayStack implements LinearData {
 
     private Object[] stack;
     private int top;
